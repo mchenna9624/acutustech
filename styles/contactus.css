@@ -1,0 +1,99 @@
+
+.inputbox{
+	width: 54%;
+	display: inline-block;	
+}
+
+input, textarea{
+	padding-left: 10px;
+	width: 90%;
+	  background-color: #ffffff;
+	  border: 1px solid #cccccc;
+	  -webkit-border-radius: 3px;
+		 -moz-border-radius: 3px;
+			  border-radius: 3px;
+	  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+		 -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+			  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+		 -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+		  -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
+		   -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+			  transition: border linear 0.2s, box-shadow linear 0.2s;
+	
+}
+
+input:focus, textarea:focus{
+ border-color: #49CBCD;
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+
+}
+
+input#inputName{
+	width: 92.5%;
+}
+
+.control-group{
+	margin-top: 20px;
+}
+
+.mapbox{
+	width: 45%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.glyphicon {
+    top: 0px;
+	color: #49CBCD;
+	margin-right: 2px;
+}
+
+.glyphicon.glyphicon-align-justify{
+	top: -40px;
+}
+
+label{
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+}
+
+.acutusCarousel, .da-slider {
+height: 130px;
+}
+
+@media (max-width: 800px){
+	.mapbox, .inputbox{
+		display: block;
+		width: 100%;
+	}
+	input, textarea, input#inputName{
+		padding-left: 0px;
+		width: 100%;	
+	}
+	.control-group{
+		margin-right: 0px !important;
+	}
+}
+
+
+@media (max-width: 480px) {
+
+	.acutusCarousel, .da-slider {
+		height: 75px;
+	}
+	
+	.footer, .mainContent {
+		width: 100%;
+		max-width: 100%;
+	}	
+	
+}
+

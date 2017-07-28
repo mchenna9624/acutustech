@@ -1,0 +1,278 @@
+.menu, .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+	
+}
+.menu {
+    height: 160px;
+	width: 164px;
+	box-shadow: 0 3px 8px #299094;
+}
+.menu li {
+    background: -moz-linear-gradient(#449EA2, #77BDBA);
+    background: -ms-linear-gradient(#449EA2, #77BDBA);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #449EA2), color-stop(100%, #77BDBA));
+    background: -webkit-linear-gradient(#449EA2, #77BDBA);
+    background: -o-linear-gradient(#449EA2, #77BDBA);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#449EA2', endColorstr='#77BDBA');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#449EA2', endColorstr='#77BDBA')";
+    background: linear-gradient(#449EA2, #77BDBA);
+    min-width: 160px;
+}
+.menu > li {
+    display: block;
+    float: left;
+    position: relative;
+}
+.menu > li:first-child {
+    border-radius: 5px 0 0;
+}
+.menu a {
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    color: #205063;
+    display: block;
+    font-size: 11px;
+    line-height: 40px;
+    padding: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+.input-lg, .form-horizontal .form-group-lg .form-control {
+	padding: 10px 9px;
+}
+
+input:invalid{
+	border-color: #F01019;
+	-webkit-box-shadow: inset 0 1px 1px rgba(240, 0, 0, 0.075),0 0 6px #6E0F0F;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 6px #c0a16b4;
+}
+
+.glyphicon {
+	top: 1px; 
+}
+
+.menu li:hover > a {
+
+    border-left: 3px solid #134852;
+
+}
+
+.whyAcu{
+	width: 250px;
+	height: 250px;
+	border: 1px solid #129989;
+	top: 50px;
+	position: relative;
+	border-radius: 10px;
+	box-shadow: 0 3px 8px #129989;
+	padding: 0px !important;
+	margin: 0px;
+	margin-bottom: 30px;
+}
+
+.whyAcu .heading{
+	font-size: 20px;
+	background: -moz-linear-gradient(top,#dff3ff,#b4d7ec);
+	background: -webkit-linear-gradient(top,#dff3ff,#129989);
+	background: -o-linear-gradient(top,#dff3ff,#b4d7ec);
+	background: -ms-linear-gradient(top,#dff3ff,#b4d7ec);
+	background: linear-gradient(top,#dff3ff,#b4d7ec);
+	border-bottom: 1px solid #129989;
+	padding: 0px;
+	margin: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	height: 50px;
+	padding-top: 10px!important;
+	margin-top: 0px!important;
+	margin-right: 0px !important;
+}
+
+.whyAcu ul{
+	list-style: none;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+
+.whyAcu ul li{
+	height: 25px;
+	font-family: arial-narrow, sans-serif;
+	color: #333333;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+.mainContent div:first-child {
+    padding-top: 10px;
+}
+
+.da-slider h2 {
+	top: 15px;
+}
+
+.acutusCarousel, .da-slider  {
+	height: 120px;
+}
+
+.da-slide p {
+	height: 30px;
+}
+
+.glyphicon-align-justify{
+	top: -40px;
+}
+
+.control-group:last-child{
+	margin-top: 0px;
+}
+
+.content{
+	width: 60%;
+	display: inline-block;
+}
+
+.btn-success{
+	background-color: #296E6F;
+	border-color: #296E6F;
+}
+
+.serviceSection{
+	display: inline-block ;
+	width: 78%;
+}
+
+#uidevtraining .content{
+	border-right: 1px solid gray;
+	padding-right: 20px;
+}
+
+#uidevtraining .visual ul li{
+	margin-top: 20px;
+	list-style: none;
+}
+
+.glyphicon{
+	margin-right: 20px;
+	color: #296E6F;
+}
+
+.curriculum .heading{
+	margin-left: 20px;
+}
+
+.curriculum ul li{
+	list-style: none;
+	margin-left: 25px;
+	
+}
+
+.leftPanel{
+	width: 18%;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 40px !important;
+	margin-right: 20px !important;
+}
+
+#webdevelopment, #webtesting, #webtraining{
+	display: none;
+}
+
+ul.testinglist{
+	list-style: none;
+}
+
+ul.testinglist li{
+	margin-bottom: 10px;
+}
+
+ul.testinglist li strong{
+	color: rgb(69, 159, 163);
+}
+
+ul.salesforce li{
+	margin-bottom: 10px;
+	list-style-type: square;
+	margin-left: 40px;
+}
+
+ul.salesforce li:first-child{
+	list-style: none;
+	margin-left: 0px;
+}
+
+.visual {
+	width: 30%;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.visual img{
+	max-width: 325px;
+}
+
+.content h2{
+	color: teal;
+	font-size: 3em;
+	font-family: 'Roboto', 'Trebuchet MS', sans-serif;
+}
+
+.content p{
+	font-size: 1.5em;
+	color: darkcyan;
+}
+
+.content div{
+	font-family: 'Roboto', 'Trebuchet MS', sans-serif;
+	color: #777;
+	font-size: 14px;
+}
+
+.accordion-toggle{
+	color: #098B8B;
+	font-size: 1.5em;
+}
+
+@media (max-width: 767px) { 
+	.acutusCarousel, .da-slider  {
+		height: 100px;
+	}
+	
+	#webdevelopment, #webtesting, #training{
+		display: block !important;
+	}
+	
+	.da-slide h2 {
+		font-size: 1.8em;
+		top: -10px;
+	}	
+	
+	.leftPanel, .visual{
+		display: none;
+	}
+	
+	.acutusWrap, .footer, .mainContent, .serviceSection, .visual, .content {
+		max-width: 98%;
+		width: 98%;
+	}	
+	
+
+	
+	
+}
+
+

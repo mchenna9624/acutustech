@@ -1,0 +1,15 @@
+.acutusCarousel, .da-slider {
+	height: 130px;
+}
+
+@media (max-width: 480px) { 
+	.acutusCarousel, .da-slider {
+		height: 75px;
+	}
+	
+	.footer, .mainContent {
+		width: 100%;
+		max-width: 100%;
+	}
+
+}

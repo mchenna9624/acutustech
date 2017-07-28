@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Videsi - Survival</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+	<link href="styles/hover-min.css" rel="stylesheet">
+	<link href="styles/animate.css" rel="stylesheet">
+	<link href="styles/font-awesome.min.css" rel="stylesheet">
+	<link href="styles/social-buttons.css" rel="stylesheet">	
+	<link href="styles/videsiMain.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+				<a class="navbar-brand" href="#">SURVIVE</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="hopeNavBar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#" class="hvr-buzz-out" id="home">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hvr-buzz-out" id="organisation">ORGANISITION</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hvr-buzz-out" id="donations">DONATIONS</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hvr-buzz-out" id="mission">OUR MISSION</a>
+                    </li>		
+                    <li>
+                        <a href="#" class="hvr-buzz-out" id="contacts">CONTACTS</a>
+                    </li>					
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+	<!-- contacts Container Starts Here -->
+	<div class="container contacts comp" style="display: none;">
+		<div class="row">
+            <div class="col-md-8 text-center">
+				<h2>CONTACT INFO</h2>
+				<div id="map-canvas"></div>
+            </div>
+			
+            <div class="col-md-4 text-center">
+				<h2>GET IN TOUCH</h2>
+				
+					<form role="form" action="" method="post" >
+						<div class="col-lg-12">
+						  
+						  <div class="form-group">
+							<label for="InputName">Your Name</label>
+							<div class="input-group">
+							  <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+							 </div>
+						  </div>
+						  <div class="form-group">
+							<label for="InputEmail">Your Email</label>
+							<div class="input-group">
+							  <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required  >
+							 </div>
+						  </div>
+						  <div class="form-group">
+							<label for="InputMessage">Message</label>
+							<div class="input-group">
+							  <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+							 </div>
+						  </div>
+
+						  <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+						</div>
+					  </form>
+				
+				
+				
+            </div>			
+        </div>
+    </div>
+	<!-- contacts Container Ends Here -->	
+	
+	<!-- mission Container Starts Here -->
+	<div class="container mission comp" style="display: none;">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>OUR MISSION</h2>
+			<div class="media">
+
+			<div class="media-body">
+				<h4 class="media-heading">Bone Marrow Drive</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+			
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Second Event</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Third Event</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>			
+			
+			
+        </div>
+		
+        <div class="col-md-4">
+          <h2>STRATEGY</h2>
+		<div class="thumbnail">
+          <div class="caption">
+            <h3>Help, let them survive</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+       </div>
+        
+		<div class="col-md-4">
+          <h2>VISION</h2>
+		  
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Jan 10, 2015</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+			
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Dec 17, 2014</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Nov 10, 2014</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>			
+			
+        </div>
+      </div>
+
+    </div>
+	<!-- mission Container Ends Here -->	
+	
+	<!-- donations Container Starts Here -->
+	<div class="container donations comp" style="display: none;">
+		<div class="row">
+            <div class="col-md-6 text-center">
+				<h2>HOW DONATIONS FLOW TO COMMUNITIES</h2>
+
+			<div class="media">
+			  <a class="media-left" href="#">
+				<img src="images/saving.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.  Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+			  </div>
+			  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+			</div>				
+				
+            </div>
+
+            <div class="col-md-2 text-center">
+
+            </div>
+			
+            <div class="col-md-4 text-center">
+				<h2>HOW TO SPONSOR US?</h2>
+				
+			<div class="media">
+			  <div class="media-body">
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.  Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+			  </div>
+			  
+			</div>				
+				
+				
+            </div>			
+        </div>
+    </div>
+	<!-- donations Container Ends Here -->
+	
+	<!-- Default Container Starts Here -->
+	<div class="container default comp" >
+		<div class="row">
+            <div class="col-lg-12 text-center">
+				<div id="part1" class="part">
+					<h1>OUR MISSION IS</h1>
+				</div>
+				<div id="part2" class="part">
+					<h1>TO HELP THOSE</h1>
+				</div>
+				<div id="part3" class="part">
+					<h1 class="lastQuote reflected" >WHO NEED IT</h1>
+				</div>
+            </div>
+        </div>
+    </div>
+	<!-- Default Container Ends Here -->
+	
+	<!-- Default Container Starts Here -->
+	<div class="container organisation comp" style="display: none;">
+		<div class="row">
+            <div class="col-md-8 text-center">
+				<h2>WAYS TO HELP</h2>
+				
+			<div class="media">
+			  <div class="media-body">
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.  Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+
+			  </div>
+			  
+			</div>					
+				
+				
+            </div>
+			
+            <div class="col-md-4 text-center">
+				<h2>STAFF</h2>
+            </div>			
+        </div>
+    </div>
+	<!-- Default Container Ends Here -->	
+	
+	<!-- Home Container Starts Here -->
+	<div class="container home comp"  style="display: none;">
+      <div class="row">
+        <div class="col-md-4">
+          <h2>EVENTS</h2>
+			<div class="media">
+			  <a class="media-left" href="#">
+				<img src="http://www.videsi.net/images/srini_glenda.JPG" alt="...">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Bone Marrow Drive</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+			
+			<div class="media">
+			  <a class="media-left" href="#">
+				<img src="http://www.videsi.net/images/cliff_chinni_srini.JPG" alt="...">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Second Event</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+
+			<div class="media">
+			  <a class="media-left" href="#">
+				<img src="http://www.videsi.net/images/videsi-1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<h4 class="media-heading">Third Event</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>			
+			
+			
+        </div>
+		
+        <div class="col-md-4">
+          <h2>WELCOME</h2>
+		<div class="thumbnail">
+          <img src="images/poor.jpg" data-holder-rendered="true" style="height: 200px; width: 100%; display: block;">
+          <div class="caption">
+            <h3>Help, let them survive</h3>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+            <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          </div>
+        </div>
+       </div>
+        
+		<div class="col-md-4">
+          <h2>NEWS</h2>
+		  
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Jan 10, 2015</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+			
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Dec 17, 2014</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>
+
+			<div class="media">
+			  <div class="media-body">
+				<h4 class="media-heading">Nov 10, 2014</h4>
+						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
+			</div>			
+			
+        </div>
+      </div>
+
+    </div>	
+	<!-- Home Container ends Here -->
+	
+	<!-- Footer Starts Here -->
+	<footer class="footer">
+      <div class="container">
+        <p>VIDESI @ 2015   |    <span style="cursor: pointer;" id="privacy">PRIVACY POLICY</span>
+		<button class="btn btn-facebook"><i class="fa fa-facebook"></i></button>
+		<button class="btn btn-twitter"><i class="fa fa-twitter"></i></button>
+		<button class="btn btn-google-plus"><i class="fa fa-google-plus"></i></button>
+		</p>
+      </div>
+    </footer>
+	<!-- Footer Ends Here -->
+	
+	<!-- Privacy Modal Starts here -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">PRIVACY POLICY</h4>
+			  </div>
+			  <div class="modal-body">
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				<br/><br/>
+								FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				<br/><br/><br/>
+								FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				<br/><br/><br/>
+								FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDSFDSFSKLSDFJDS
+				FDSFSKLSDFJDS FKDFDF SD FJDSK FDKSFJDS FJDSKFDSFKDS  DFKLSJFDS
+				<br/><br/><br/>
+			  </div>
+			</div>
+		  </div>
+	</div>
+	<!-- Privay modal ends here -->
+	
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script src="scripts/videsi.js"></script>
+  </body>
+</html>
